@@ -3,7 +3,8 @@ Dieser Guide ist rein aus Erfahrungen und wird teilweise erweitert wenn neue Erf
 Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher sind nicht alle AMD Karten kompatibel.
 
 **NVIDIA USER: Grafikkarten under 8GB VRAM nicht unterstützt/teilweise unterstützt**
-
+<details>
+  <summary>MAC OS USER!</summary>
 ## Mac-User insert
 Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
 
@@ -39,7 +40,7 @@ Grundsätzlich ist folgende Liste unterstützt:
 > Radeon W6800X MPX
 
 Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
-
+</details>
 ## Welche AMD Grafikkarten sind kompatibel?
 Aktuell ist die verwendung von AMD Karten nur duch eine kombination aus Hardware und Software möglich.
 Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit AMD RADEON PRO driver verwenden können einzusetzen. 
@@ -68,4 +69,4 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 
 
 [^1]: Quelle: https://www.maxon.net/de/article/maxon-announces-redshift-support-for-amd-radeon-pro-graphics-on-windows / https://www.maxon.net/en/requirements/redshift-requirements
-[^2]:
+[^2]: https://www.amd.com/de/support
