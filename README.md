@@ -9,8 +9,8 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 
 <details>
   <summary>MAC OS USER!</summary>
-    Mac-User insert
-      Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift                 zusammenhängt.
+  
+    Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
 
     Grundsätzlich ist folgende Liste unterstützt: 
 
