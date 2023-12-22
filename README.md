@@ -11,7 +11,8 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 > **NVIDIA USER: Grafikkarten under 8GB VRAM nicht unterstützt/teilweise unterstützt**
 
 <details>
-  <summary>MAC OS USER!</summary>
+  {::options parse_block_html="true" /}
+  <summary>MAC OS USER!</summary> 
   
   Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
 
@@ -44,6 +45,10 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
   > Radeon VII
   > Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
   > Radeon W6800X MPX
+
+ > [!CAUTION]
+    > Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
+  
 
    
 </details>
