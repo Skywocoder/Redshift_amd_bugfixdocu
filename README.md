@@ -2,7 +2,10 @@
 Dieser Guide ist rein aus Erfahrungen und wird teilweise erweitert wenn neue Erfahrungswerte dazukommen.
 Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher sind nicht alle AMD Karten kompatibel.
 
-**NVIDIA USER: Grafikkarten under 8GB VRAM nicht unterstützt/teilweise unterstützt**
+Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodle die von den Proffesoren berreitgestellt wird. [^3]
+
+> [!NOTE]
+> **NVIDIA USER: Grafikkarten under 8GB VRAM nicht unterstützt/teilweise unterstützt**
 
 <details>
   <summary>MAC OS USER!</summary>
@@ -40,7 +43,8 @@ Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher s
     > Radeon RX 6800/6800 XT/6900 XT
     > Radeon W6800X MPX
 
-    Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist        darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
+    > [!CAUTION]
+    > Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
 </details>
 
 
@@ -70,7 +74,37 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
   Der normale AMD Radeon Driver wird von Radeon nicht unterstützt. 
 
   **ACHTUNG!** Der Driver updated sich unter umständen auf einen normalen Driver, was dazu führen kann das die     Grafikkarte nicht mehr von Redshift erkannt wird.
+  
+## Bekannte Probleme & Lösungen
+<details>
+  <summary>Die Graffikarte wird nicht angezeigt!</summary>
+    + Keine kompatible Graffikarte --> überprüfe auf kompabilität
+    + falscher Driver --> überpüfe ob der richtige Driver instaliert ist
+    
+    
+    > [!TIP]
+    > Manche Redshift Versionen sind stabiler / laufen besser als andere. Falls ein Problem bestehend bleibt, teste eine andere Version. 
+  
+</details>
 
+<details>
+  <summary>Redshift rendert nur über die CPU!</summary>
+  + keine Graffikkarte ausgewählt --> wähle eine Graffikarte aus ( Voreinstellungen -> Renderer -> rendern | Anleitung Prof.) [^3]
+
+  > [!NOTE]
+  > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+
+</details>
+
+<details>
+  <summary>Meine CPU wird nur zu 10% ausgelastet!</summary>
+  + Problem in Redshift 
+
+  > [!NOTE]
+  > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+
+</details>
+  
 
 
 
@@ -79,3 +113,4 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 
 [^1]: Quelle: https://www.maxon.net/de/article/maxon-announces-redshift-support-for-amd-radeon-pro-graphics-on-windows / https://www.maxon.net/en/requirements/redshift-requirements
 [^2]: https://www.amd.com/de/support
+[^3]: Die Anleitung befindet sich in den Links die von den Proffesoren bereigestellt werden ab der Übung "erstes Rendern mittels Redshift ....." In der Regel befindet sich aber die Einstellung unter **Voreinstellungen -> Renderer -> rendern**
