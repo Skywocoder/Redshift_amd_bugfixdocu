@@ -63,7 +63,13 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 
   > Radeon RX5700 XT
 
-  Damit diese Graffikkarten unterstützt werden sind die AMD RADEON PRO driver [^2]
+  Damit diese Graffikkarten unterstützt werden sind die AMD RADEON PRO driver [^2] benötigt:
+
+  > AMD RADEON PRO 22 Q4 oder neuer
+
+  Der normale AMD Radeon Driver wird von Radeon nicht unterstützt. 
+
+  **ACHTUNG!** Der Driver updated sich unter umständen auf einen normalen Driver, was dazu führen kann das die     Grafikkarte nicht mehr von Redshift erkannt wird.
 
 
 
