@@ -6,35 +6,39 @@ Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher s
 
 ## Mac-User insert
 Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
+
 Grundsätzlich ist folgende Liste unterstützt: 
 
 **MacBook Pro**
 
-Radeon Pro Vega 16/20
-Radeon Pro 5500M/5600M
+> Radeon Pro Vega 16/20
+> Radeon Pro 5500M/5600M
 
 **iMac**
 
-Radeon Pro Vega 48
-Radeon Pro 5500 XT/5700/5700 XT
-iMac Pro
+> Radeon Pro Vega 48
+> Radeon Pro 5500 XT/5700/5700 XT
 
-Radeon Pro Vega 56/64
+**iMac Pro**
+
+> Radeon Pro Vega 56/64
 
 **MacPro**
 
-Radeon Pro Vega II / Vega II Duo
-Radeon Pro W5500X/W5700X
-Radeon RX 6800/6800 XT/6900 XT
-Radeon W6800X MPX
-Thunderbolt eGPUs
+> Radeon Pro Vega II / Vega II Duo
+> Radeon Pro W5500X/W5700X
+> Radeon RX 6800/6800 XT/6900 XT
+> Radeon W6800X MPX
+> Thunderbolt eGPUs
 
-Radeon RX Vega 56/64
-Radeon Pro WX 9100
-Radeon VII
-Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
-Radeon RX 6800/6800 XT/6900 XT
-Radeon W6800X MPX
+> Radeon RX Vega 56/64
+> Radeon Pro WX 9100
+> Radeon VII
+> Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
+> Radeon RX 6800/6800 XT/6900 XT
+> Radeon W6800X MPX
+
+Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
 
 ## Welche AMD Grafikkarten sind kompatibel?
 Aktuell ist die verwendung von AMD Karten nur duch eine kombination aus Hardware und Software möglich.
