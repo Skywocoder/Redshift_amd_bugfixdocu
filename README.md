@@ -1,3 +1,5 @@
+
+{::options parse_block_html="true" /}
 # Kurzer Guide zu AMD Grafikkarten in Redshift
 Dieser Guide ist rein aus Erfahrungen und wird teilweise erweitert wenn neue Erfahrungswerte dazukommen.
 Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher sind nicht alle AMD Karten kompatibel.
