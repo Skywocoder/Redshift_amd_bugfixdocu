@@ -34,16 +34,24 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 
   **MacPro**
 
-  > Radeon Pro Vega II / Vega II Duo
+  > Radeon Pro Vega II / Vega II Du
+
   > Radeon Pro W5500X/W5700X
+> 
   > Radeon RX 6800/6800 XT/6900 XT
+> 
   > Radeon W6800X MPX
+> 
   > Thunderbolt eGPUs [^4]
 
   > Radeon RX Vega 56/64
+> 
   > Radeon Pro WX 9100
+> 
   > Radeon VII
+> 
   > Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
+> 
   > Radeon W6800X MPX
 
 
