@@ -45,14 +45,14 @@ Aktuell ist die verwendung von AMD Karten nur duch eine kombination aus Hardware
 Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit AMD RADEON PRO driver verwenden können einzusetzen. 
 
   Die Liste der unterstützen Graffikkarten findet man auf der Hardwareinfoseite von Redshift: 
-  Radeon PRO W7900, W7800
-  Radeon PRO W6800, W6600,
-  Radeon VII (beide Variationen unterstützt)
+  > Radeon PRO W7900, W7800
+  > Radeon PRO W6800, W6600
+  > Radeon VII (beide Variationen unterstützt)
 
-  Radeon W5700
-  Radeon RX 7950 XTX, RX7950 XT, RX7900
-  Radeon RX6950, RX6700 XT, RX6600 
-  Radeon RX5700 XT
+  > Radeon W5700
+  > Radeon RX 7950 XTX, RX7950 XT, RX7900
+  > Radeon RX6950, RX6700 XT, RX6600 
+  > Radeon RX5700 XT
 
 
 
