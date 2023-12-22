@@ -10,8 +10,8 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 > [!NOTE]
 > **NVIDIA USER: Grafikkarten under 8GB VRAM nicht unterstützt/teilweise unterstützt**
 
-<details>
-  {::options parse_block_html="true" /}
+<details  {::options parse_block_html="true" /}>
+ 
   <summary>MAC OS USER!</summary> 
   
   Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
