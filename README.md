@@ -13,38 +13,37 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 <details>
   <summary>MAC OS USER!</summary>
   
-    Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
+  Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
 
-    Grundsätzlich ist folgende Liste unterstützt: 
+  Grundsätzlich ist folgende Liste unterstützt: 
 
-    **MacBook Pro**
+  **MacBook Pro**
 
-    > Radeon Pro Vega 16/20
-    > Radeon Pro 5500M/5600M
+  > Radeon Pro Vega 16/20
+  > Radeon Pro 5500M/5600M
 
-    **iMac**
+  **iMac**
 
-    > Radeon Pro Vega 48
-    > Radeon Pro 5500 XT/5700/5700 XT
+  > Radeon Pro Vega 48
+  > Radeon Pro 5500 XT/5700/5700 XT
 
-    **iMac Pro**
+  **iMac Pro**
 
-    > Radeon Pro Vega 56/64
+  > Radeon Pro Vega 56/64
 
-    **MacPro**
+  **MacPro**
 
-    > Radeon Pro Vega II / Vega II Duo
-    > Radeon Pro W5500X/W5700X
-    > Radeon RX 6800/6800 XT/6900 XT
-    > Radeon W6800X MPX
-    > Thunderbolt eGPUs
+  > Radeon Pro Vega II / Vega II Duo
+  > Radeon Pro W5500X/W5700X
+  > Radeon RX 6800/6800 XT/6900 XT
+  > Radeon W6800X MPX
+  > Thunderbolt eGPUs
 
-    > Radeon RX Vega 56/64
-    > Radeon Pro WX 9100
-    > Radeon VII
-    > Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
-    > Radeon RX 6800/6800 XT/6900 XT
-    > Radeon W6800X MPX
+  > Radeon RX Vega 56/64
+  > Radeon Pro WX 9100
+  > Radeon VII
+  > Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
+  > Radeon W6800X MPX
 
    
 </details>
