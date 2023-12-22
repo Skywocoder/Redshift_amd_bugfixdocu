@@ -5,7 +5,7 @@ Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher s
 Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodle die von den Proffesoren berreitgestellt wird. [^3]
 
 > [!NOTE]
-> **NVIDIA USER: Grafikkarten unter 8GB VRAM nicht unterstützt/teilweise unterstützt**
+> **NVIDIA USER: Grafikkarten unter 8GB VRAM werden laut Maxon nicht Unterstüzt, verwenden auf eigne "Gefahr"**
 
 > [!NOTE]
 > Ich, der Autor, hafte für keine schäden die durch Experiemente bzw instalation von Driver passiern! Dies ist jedeglich eine Basis für alle die die Probleme in mit den AMD GPU's in Redshift haben und eine Lösungsansatz brauchen. Die verwendung dieses Guides setzt vorraus das man ein wenig Grundverständis hat von seiner Hardware (Welche komponenten in seinem Gerät verbaut sind z.b.) bzw wie man googelt falls eine Frage nicht beantwortet wird. 
