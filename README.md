@@ -1,11 +1,6 @@
-
-
-
-# Kurzer Guide zu AMD Grafikkarten in Redshift
+# Kurzer InfoGuide zu AMD Grafikkarten in Redshift
 Dieser Guide ist rein aus Erfahrungen und wird teilweise erweitert wenn neue Erfahrungswerte dazukommen.
 Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher sind nicht alle AMD Karten kompatibel.
-
-
 
 Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodle die von den Proffesoren berreitgestellt wird. [^3]
 
@@ -13,7 +8,7 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 > **NVIDIA USER: Grafikkarten unter 8GB VRAM nicht unterstützt/teilweise unterstützt**
 
 > [!NOTE]
-> Ich, der Autor, hafte für keine schäden die durch Experiemente bzw instalation von Driver passiern! Dies ist jedeglich eine Basis für alle die die Probleme in mit den AMD GPU's in Redshift haben und eine Lösungsansatz brauchen. Bei Konkreten Problemen gibt es auch noch das Maxon Forum [^5] indem einige Lösungsansätze gefunden werden können bzw erfragt werden können. 
+> Ich, der Autor, hafte für keine schäden die durch Experiemente bzw instalation von Driver passiern! Dies ist jedeglich eine Basis für alle die die Probleme in mit den AMD GPU's in Redshift haben und eine Lösungsansatz brauchen. Die verwendung dieses Guides setzt vorraus das man ein wenig Grundverständis hat von seiner Hardware (Welche komponenten in seinem Gerät verbaut sind z.b.) bzw wie man googelt falls eine Frage nicht beantwortet wird. 
 
 <details  {::options parse_block_html="true" /}>
  
@@ -90,40 +85,53 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
   Der normale AMD Radeon Driver wird von Radeon nicht unterstützt. 
 
   **ACHTUNG!** Der Driver updated sich unter umständen auf einen normalen Driver, was dazu führen kann das die     Grafikkarte nicht mehr von Redshift erkannt wird.
-  
+
+
 ## Bekannte Probleme & Lösungen
+>[!NOTE]
+>Oftmals sind Driver oder ähnliches ein Problem. Zum Lösen bzw testen von Problemen sind programme wie HardwareInfo / HardwareMonitor nicht schlecht da es ihnen möglich sit schnell die aktuellen Driver auszulesen. Während meinem testesn hatte ich fast alle R24 compatiblen Versionen durchprobiert. Da Der AMD Support erst ab Mai/Juni 2022 da ist, können ältere Versionen ignoriert werden.
+
+>[!WARNING]
+>Unter keinen umständen ist der Hybrid Rendering "Button" in den Einstellungen anzuklicken wenn eine GPU und CPU ausgewählt sind. Das kann dazu führen das CineR24 nicht mehr funktuniert und sämtliche Render zu einem Bluescreen führen.
+
+>[!NOTE]
+>Da MacOS MacOS ist und ich keine möglichkeit habe mehrer Tausend Euro für einen Mac mit AMD Grafikkarte zu zahlen ist sind evnentuelle Probleme in MacOS hier nicht angeführt.
+
 <details>
   <summary>Die Graffikarte wird nicht angezeigt!</summary>
-  
+  <br>
    + Keine kompatible Graffikarte --> überprüfe auf kompabilität
    + falscher Driver --> überpüfe ob der richtige Driver instaliert ist
     
-    
-   > [!TIP]
-   > Manche Redshift Versionen sind stabiler / laufen besser als andere. Falls ein Problem bestehend bleibt, teste eine andere Version. 
+   <br>
   
+   > **TIP** Manche Redshift Versionen sind stabiler / laufen besser als andere. Falls ein Problem bestehend bleibt, teste eine andere Version. 
+  <br>
 </details>
 
 <details>
   <summary>Redshift rendert nur über die CPU!</summary>
-  
+  <br>
    + keine Graffikkarte ausgewählt --> wähle eine Graffikarte aus ( Voreinstellungen -> Renderer -> rendern | Anleitung Prof.) [^3]
-
+<br>
    
-  INFO: [^7]
+   
+   > **INFO** Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+<br>
 </details>
 
 <details>
   <summary>Meine CPU wird nur zu 10% ausgelastet!</summary>
-    
-   + Problem in Redshift 
-
-   INFO: [^6]
+    <br>
+   + Problem in Redshift -> AMD Driver überprüfen bzw Redshift neuinstaliern
+<br>
    
-> 
+   > **INFO** Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+   <br>
+
 </details>
 
-## TIPPS / INFOS / WICHTIG ( verlinkt)
+
  
 
 
@@ -133,12 +141,7 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 [^3]: Die Anleitung befindet sich in den Links die von den Proffesoren bereigestellt werden ab der Übung "erstes Rendern mittels Redshift ....." In der Regel befindet sich aber die Einstellung unter **Voreinstellungen -> Renderer -> rendern**
 [^4]: Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
 [^5]: https://redshift.maxon.net/landing benötigt Maxon Login!!
-[^6]:
- > [!NOTE]
-   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird.
 
-[^7]:
- > [!NOTE]
-   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+
 
 
