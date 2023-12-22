@@ -59,6 +59,8 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 
   > Radeon RX5700 XT
 
+  Damit diese Graffikkarten unterstützt werden sind die AMD RADEON PRO driver 
+
 
 
 
