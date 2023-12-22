@@ -38,7 +38,7 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
   > Radeon Pro W5500X/W5700X
   > Radeon RX 6800/6800 XT/6900 XT
   > Radeon W6800X MPX
-  > Thunderbolt eGPUs
+  > Thunderbolt eGPUs [^4]
 
   > Radeon RX Vega 56/64
   > Radeon Pro WX 9100
@@ -46,9 +46,6 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
   > Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
   > Radeon W6800X MPX
 
- > [!NOTE]<br>
- > Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
-  
 
    
 </details>
@@ -123,3 +120,6 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 [^1]: Quelle: https://www.maxon.net/de/article/maxon-announces-redshift-support-for-amd-radeon-pro-graphics-on-windows / https://www.maxon.net/en/requirements/redshift-requirements
 [^2]: https://www.amd.com/de/support
 [^3]: Die Anleitung befindet sich in den Links die von den Proffesoren bereigestellt werden ab der Übung "erstes Rendern mittels Redshift ....." In der Regel befindet sich aber die Einstellung unter **Voreinstellungen -> Renderer -> rendern**
+[^4]: Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
+  
+
