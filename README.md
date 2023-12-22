@@ -109,9 +109,8 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
   
    + keine Graffikkarte ausgewählt --> wähle eine Graffikarte aus ( Voreinstellungen -> Renderer -> rendern | Anleitung Prof.) [^3]
 
-   > [!NOTE]
-   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
-
+   
+  INFO: [^7]
 </details>
 
 <details>
@@ -119,14 +118,13 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
     
    + Problem in Redshift 
 
-   > [!NOTE]
-   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird.
+   INFO: [^6]
+   
 > 
 </details>
-  
 
-
-
+## TIPPS / INFOS / WICHTIG ( verlinkt)
+ 
 
 
 
@@ -135,4 +133,12 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 [^3]: Die Anleitung befindet sich in den Links die von den Proffesoren bereigestellt werden ab der Übung "erstes Rendern mittels Redshift ....." In der Regel befindet sich aber die Einstellung unter **Voreinstellungen -> Renderer -> rendern**
 [^4]: Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
 [^5]: https://redshift.maxon.net/landing benötigt Maxon Login!!
+[^6]:
+ > [!NOTE]
+   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird.
+
+[^7]:
+ > [!NOTE]
+   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+
 
