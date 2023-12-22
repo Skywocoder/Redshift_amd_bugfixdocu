@@ -46,7 +46,7 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
   > Radeon RX 5500/5500 XT/5600 XT/5700/5700 XT
   > Radeon W6800X MPX
 
- > [!CAUTION]<br>
+ > [!NOTE]<br>
  > Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
   
 
