@@ -1,5 +1,6 @@
 
 
+
 # Kurzer Guide zu AMD Grafikkarten in Redshift
 Dieser Guide ist rein aus Erfahrungen und wird teilweise erweitert wenn neue Erfahrungswerte dazukommen.
 Redshift bietet aktuell nur kompletten Support für Nvidia Graffikarten, daher sind nicht alle AMD Karten kompatibel.
@@ -10,7 +11,6 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 > **NVIDIA USER: Grafikkarten under 8GB VRAM nicht unterstützt/teilweise unterstützt**
 
 <details>
-  {::options parse_block_html="true" /}
   <summary>MAC OS USER!</summary>
   
     Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
@@ -46,9 +46,7 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
     > Radeon RX 6800/6800 XT/6900 XT
     > Radeon W6800X MPX
 
-    > [!CAUTION]
-    > Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte aus der List zu sein. Bei Nvidia ist darauf zu achten das diese unter MacOS vermutlich NICHT unterstützt sind. 
-  {::options parse_block_html="false" /}
+   
 </details>
 
 
