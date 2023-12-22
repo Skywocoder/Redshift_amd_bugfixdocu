@@ -85,33 +85,33 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 <details>
   <summary>Die Graffikarte wird nicht angezeigt!</summary>
   
-    + Keine kompatible Graffikarte --> überprüfe auf kompabilität
-    + falscher Driver --> überpüfe ob der richtige Driver instaliert ist
+   + Keine kompatible Graffikarte --> überprüfe auf kompabilität
+   + falscher Driver --> überpüfe ob der richtige Driver instaliert ist
     
     
-    > [!TIP]
-    > Manche Redshift Versionen sind stabiler / laufen besser als andere. Falls ein Problem bestehend bleibt, teste eine andere Version. 
+   > [!TIP]
+   > Manche Redshift Versionen sind stabiler / laufen besser als andere. Falls ein Problem bestehend bleibt, teste eine andere Version. 
   
 </details>
 
 <details>
   <summary>Redshift rendert nur über die CPU!</summary>
   
-    + keine Graffikkarte ausgewählt --> wähle eine Graffikarte aus ( Voreinstellungen -> Renderer -> rendern | Anleitung Prof.) [^3]
+   + keine Graffikkarte ausgewählt --> wähle eine Graffikarte aus ( Voreinstellungen -> Renderer -> rendern | Anleitung Prof.) [^3]
 
-    > [!NOTE]
-    > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
+   > [!NOTE]
+   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
 
 </details>
 
 <details>
   <summary>Meine CPU wird nur zu 10% ausgelastet!</summary>
     
-    + Problem in Redshift 
+   + Problem in Redshift 
 
-    > [!NOTE]
-    > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird. 
-
+   > [!NOTE]
+   > Akutell ein bekannter Fehler ist das Redshift die CPU priotisiert, daher kann es dazu führen das die Grafikkarte nicht voll ausgelastet wird.
+> 
 </details>
   
 
