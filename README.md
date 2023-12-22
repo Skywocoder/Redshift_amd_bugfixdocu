@@ -44,7 +44,7 @@ Die Angegebene Thunderbolt eGPU hat klarerweise eine Nvidia oder Radeon Karte au
 Aktuell ist die verwendung von AMD Karten nur duch eine kombination aus Hardware und Software möglich.
 Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit AMD RADEON PRO driver verwenden können einzusetzen. 
 
-  Die Liste der unterstützen Graffikkarten findet man auf der Hardwareinfoseite von Redshift: 
+  Die Liste der unterstützen Graffikkarten findet man auf der Hardwareinfoseite von Redshift [^1]: 
   > Radeon PRO W7900, W7800
 
   > Radeon PRO W6800, W6600
@@ -59,7 +59,7 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 
   > Radeon RX5700 XT
 
-  Damit diese Graffikkarten unterstützt werden sind die AMD RADEON PRO driver 
+  Damit diese Graffikkarten unterstützt werden sind die AMD RADEON PRO driver [^2]
 
 
 
@@ -67,4 +67,5 @@ Grundsätzlich ist es nicht möglich AMD Grafikkarten einzusetzen die nicht mit 
 
 
 
-Quelle: https://www.maxon.net/de/article/maxon-announces-redshift-support-for-amd-radeon-pro-graphics-on-windows / https://www.maxon.net/en/requirements/redshift-requirements
+[^1]: Quelle: https://www.maxon.net/de/article/maxon-announces-redshift-support-for-amd-radeon-pro-graphics-on-windows / https://www.maxon.net/en/requirements/redshift-requirements
+[^2]:
