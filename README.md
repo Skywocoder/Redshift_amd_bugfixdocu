@@ -18,7 +18,7 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
  
   <summary>MAC OS USER!</summary> 
   
-  Der Amd support ist etwas kompliztierter das dieser auch mit direkt mit der Version von Redshift zusammenhängt.
+  Der Support in MacOS ist etwas variable da grundsätzlich alle Graffikarten unterstützt werden, jedoch mit steht und f#llt der support mit verschiedenen Redshift Versionen.
 
   Grundsätzlich ist folgende Liste unterstützt: 
 
