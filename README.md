@@ -1,5 +1,8 @@
 > [!NOTE]
 > Aktuell noch in Bearbeitung, daher im Probleme & Lösungen nur wenig Inhalt
+>
+> [!NOTE]
+> Eine schnelle  Lösung wäre die Cinema R25 Version herunter zu laden. Aktuell Stabile Versionen von Redshift umfassen (To be tested)!
 
 
 # Kurzer InfoGuide zu AMD Grafikkarten in Redshift
@@ -13,6 +16,8 @@ Um Komponenten in Redshift zu aktivieren folgen sie bitte der Anleitung im Moodl
 
 > [!NOTE]
 > Ich, der Autor, hafte für keine schäden die durch Experiemente bzw instalation von Driver passiern! Dies ist jedeglich eine Basis für alle die die Probleme in mit den AMD GPU's in Redshift haben und eine Lösungsansatz brauchen. Die verwendung dieses Guides setzt vorraus das man ein wenig Grundverständis hat von seiner Hardware (Welche komponenten in seinem Gerät verbaut sind z.b.) bzw wie man googelt falls eine Frage nicht beantwortet wird. 
+
+
 
 <details  {::options parse_block_html="true" /}>
  
