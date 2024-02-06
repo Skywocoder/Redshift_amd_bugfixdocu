@@ -1,6 +1,7 @@
 > [!NOTE]
 > Aktuell noch in Bearbeitung, daher im Probleme & Lösungen nur wenig Inhalt
->
+
+
 > [!NOTE]
 > Eine schnelle  Lösung wäre die Cinema R25 Version herunter zu laden. Aktuell Stabile Versionen von Redshift umfassen (To be tested)!
 
